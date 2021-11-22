@@ -65,7 +65,7 @@ body{
 }
 
 .project{
-  transition-duration: 2s;
+  transition-duration: 0.5s;
 }
 
 .project:hover{
