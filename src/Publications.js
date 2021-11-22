@@ -40,7 +40,7 @@ function Publications(){
                                 <p>
                                 We present an approach utilizing Topological Data Analysis to study the structure of face poses used in affective computing, i.e., the process of recognizing human emotion. The approach uses a conditional comparison of different emotions, both respective and irrespective of time, with multiple topological distance metrics, dimension reduction techniques, and face subsections (e.g., eyes, nose, mouth, etc.). The results confirm that our topology-based approach captures known patterns, distinctions between emotions, and distinctions between individuals, which is an important step towards more robust and explainable emotion recognition by machines.
                                 </p>
-                                <a href="https://ieeexplore.ieee.org/document/9552237" target='_' className="bckgrnd stretched-link"></a>
+                                <a href="https://arxiv.org/abs/2107.08573" target='_' className="bckgrnd stretched-link"></a>
                             </Card.Body>
                             
                         </Card>

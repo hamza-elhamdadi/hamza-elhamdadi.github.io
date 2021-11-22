@@ -152,7 +152,6 @@ a:active {
 a[href*="mailto"] {
   /*background: url('external-link-52.png') no-repeat 100% 0;*/
   background-size: 16px 16px;
-  padding-right: 19px;
 }
 
 /*@keyframes App-logo-spin {

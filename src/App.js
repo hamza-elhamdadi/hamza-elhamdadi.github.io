@@ -24,7 +24,6 @@ function App() {
   return (
     <>
       <Navbar className='mx-auto' variant='dark' sticky='top' style={{"backgroundColor": '#c3aeff'}}>
-        <Navbar.Brand to='/'></Navbar.Brand>
         <Nav >
           <NavLink className='nav-link page-logo active' to="/"></NavLink>
           <NavLink className='nav-link active' to="/" ><h5 style={{marginTop: 10}}>Home</h5></NavLink>
