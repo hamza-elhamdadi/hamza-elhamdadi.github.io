@@ -51,8 +51,8 @@ function App() {
                   <Col className='text-left' >
                   <h2>About Me</h2>
                   <p>
-                    I am a doctoral student in the <a style={{'margin': 0}} target='_' href='https://groups.cs.umass.edu/hci-vis/'>HCI-Vis Lab</a> 
-                    at the <a style={{'margin': 0}} target="_" href="https://www.umass.edu">University of Massachusetts Amherst</a>. I joined UMass
+                    I am a doctoral student in the <a style={{'margin': 0}} target='_' href='https://groups.cs.umass.edu/hci-vis/'> HCI-Vis Lab</a>&nbsp;
+                    at the <a style={{'margin': 0}} target="_" href="https://www.umass.edu"> University of Massachusetts Amherst</a>. I joined UMass
                     in the Fall of 2021. I received my Master's and Bachelor's degrees from the Computer Science and Engineering
                     at the <a style={{'margin': 0}} target='_' href='https://usf.edu'>University of South Florida</a>.
                   </p>

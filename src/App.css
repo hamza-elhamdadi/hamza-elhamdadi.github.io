@@ -130,7 +130,6 @@ small a {
 div a {
   outline: none;
   text-decoration: none;
-  padding: 2px 5px 2px 0px;
 }
 
 a:link {
