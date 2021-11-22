@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/homepage/static/css/main.43c4695c.chunk.css",
+    "main.js": "/homepage/static/js/main.e3e01287.chunk.js",
+    "main.js.map": "/homepage/static/js/main.e3e01287.chunk.js.map",
+    "runtime-main.js": "/homepage/static/js/runtime-main.40fbc18f.js",
+    "runtime-main.js.map": "/homepage/static/js/runtime-main.40fbc18f.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/homepage/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.5650f5b0.chunk.js": "/homepage/static/js/2.5650f5b0.chunk.js",
+    "static/js/2.5650f5b0.chunk.js.map": "/homepage/static/js/2.5650f5b0.chunk.js.map",
+    "static/js/3.c712fed9.chunk.js": "/homepage/static/js/3.c712fed9.chunk.js",
+    "static/js/3.c712fed9.chunk.js.map": "/homepage/static/js/3.c712fed9.chunk.js.map",
+    "index.html": "/homepage/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/homepage/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.43c4695c.chunk.css.map": "/homepage/static/css/main.43c4695c.chunk.css.map",
+    "static/js/2.5650f5b0.chunk.js.LICENSE.txt": "/homepage/static/js/2.5650f5b0.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/homepage/static/media/HAMZAELHAMDADI.9687fe3a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40fbc18f.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.5650f5b0.chunk.js",
+    "static/css/main.43c4695c.chunk.css",
+    "static/js/main.e3e01287.chunk.js"
+  ]
+}
