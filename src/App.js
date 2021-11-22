@@ -48,7 +48,7 @@ function App() {
               </Col>
               <Col xs={12} lg={8} >
                 <Row style={{marginTop: '10px', color: '#7050a0'}}>
-                  <Col className='text-left' >
+                  <Col className='text-left'>
                   <h2>About Me</h2>
                   <p>
                     I am a doctoral student in the <a style={{'margin': 0}} target='_' href='https://groups.cs.umass.edu/hci-vis/'> HCI-Vis Lab</a>&nbsp;
