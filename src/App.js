@@ -33,7 +33,7 @@ function App() {
       <div className="App">
           <Container className='mx-auto'>
             <Row>
-              <Col xs={8} lg={4} className='text-left mx-auto'>
+              <Col xs={10} lg={4} className='text-left mx-auto'>
               <Card className='cropped'>
                 <Card.Img src={'/IMG_7839_Original.jpg'} alt="Hamza Elhamdadi" />
                 <Card.Body className='bckgrnd cardbodytext'>
