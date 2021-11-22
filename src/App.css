@@ -64,8 +64,12 @@ body{
   vertical-align: middle;
 }
 
+.project{
+  transition-duration: 2s;
+}
+
 .project:hover{
-  transform: scale(0.95);
+  transform: scale(1.025);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
