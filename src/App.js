@@ -49,7 +49,7 @@ function App() {
                 </Card.Body>
               </Card>
               </Col>
-              <Col xs={10} lg={8} >
+              <Col xs={10} lg={8} className='mx-auto' >
                 <Row style={{marginTop: '10px', color: '#7050a0'}}>
                   <Col className='text-left mx-auto'>
                   <h2>About Me</h2>
@@ -80,7 +80,7 @@ function App() {
                   </Col>
                 </Row>
                 <Row className='text-left mx-auto' style={{color: '#7050a0'}}>
-                  <Col xs={10} lg = {12}>
+                  <Col xs={12} lg = {12}>
                   <Card>
                     <Card.Body className='bckgrnd'>
                     <h4>Recent News</h4>
