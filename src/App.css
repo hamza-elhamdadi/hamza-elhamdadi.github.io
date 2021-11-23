@@ -66,12 +66,20 @@ body{
 
 .project{
   transition-duration: 0.5s;
+  margin: 15px;
 }
 
 .project:hover{
   transform: scale(1.025);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  z-index: 5
 }
+
+.table-list { display: table; width: 100% }
+
+.table-element { display: table-cell; width: 50%;}
+
+.element-right { text-align: right; }
 
 a {
   color:#8d7eb8;

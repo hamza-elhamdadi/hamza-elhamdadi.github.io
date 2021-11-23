@@ -14,6 +14,8 @@ import MailTo from './components/MailTo';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+import { Timeline, Follow } from 'react-twitter-widgets';
+
 //Styles imports
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -27,7 +29,7 @@ function App() {
         <Nav >
           <NavLink className='nav-link page-logo active' to="/"></NavLink>
           <NavLink className='nav-link active' to="/" ><h5 style={{marginTop: 10}}>Home</h5></NavLink>
-          <NavLink className='nav-link' to="/publications" ><h5 style={{marginTop: 10}}>Projects</h5></NavLink>
+          <NavLink className='nav-link' to="/publications" ><h5 style={{marginTop: 10}}>Publications</h5></NavLink>
           <NavLink className='nav-link' to='/cv'><h5 style={{marginTop: 10}}>CV</h5></NavLink>
         </Nav>
       </Navbar>
@@ -60,18 +62,43 @@ function App() {
                   <p>
                     I am currently pursuing a Ph.D. under the advising of <a style={{'margin': 0}} target='_' href='https://cyxiong.com'>Dr. Cindy Xiong</a>.
                     My research interests in the area of Data & Information Visualization include Perception in Visualization and
-                    Topological Data Visualization. I am investigating positive and negative framing as they relate to Data
-                    Visualization.
+                    Topological Data Analysis. My recent published work applies Topological Data Analysis to Emotion Detection in the field of Affective Computing.
                   </p>
                   </Col>
+                  <Col xs={6} lg={6}>
+                  <Timeline
+                      dataSource={{
+                        sourceType: 'profile',
+                        screenName: 'ElhamdadiHamza'
+                      }}
+                      options={{
+                        height: '380',
+                        chrome: "noheader, nofooter"
+                      }}
+                    />
+                    <Follow username="ElhamdadiHamza" options={{ size: "medium" }} />
+                  </Col>
                 </Row>
-                <Row style={{marginTop: '10px', color: '#7050a0'}}>
-                  <Col className='text-left'>
-                  <h2>Publications</h2>
-                  <ul>
-                      <li>AffectiveTDA: Using Topological Data Analysis to Improve Analysis and Explainability in Affective Computing - <b>Hamza Elhamdadi, Shaun Canavan, Paul Rosen</b> - IEEE Transactions on Visualization and Computer Graphics, 2021</li>
-                      <li>Recognizing Emotion in the Wild using Multimodal Data - <b>S. Srivastava, S. Aathreya, S. Hinduja, Sk R. Jannat, H. Elhamdadi, and S. Canavan</b> - International Conference on Multimodal Interaction, 2020</li>
-                  </ul>
+                <Row className='text-left' style={{color: '#7050a0'}}>
+                  <Col>
+                  <Card>
+                    <Card.Body className='bckgrnd'>
+                    <h4>Recent News</h4>
+                      <ul class='table-list'>
+                        <li class='table-element'>Paper accepted to IEEE Vis 2021 and TVCG</li>
+                        <li class='table-element element-right'><b>Fall 2021</b></li>
+                      </ul>
+                      <ul class='table-list'>
+                        <li class='table-element'>Accepted to Ph.D. program at UMass Amherst</li>
+                        <li class='table-element element-right'><b>Fall 2021</b></li>
+                      </ul>
+                      <ul class='table-list'>
+                        <li class='table-element'>Master of Science Awarded at USF</li>
+                        <li class='table-element element-right'><b>Summer 2021</b></li>
+                      </ul> 
+                    </Card.Body>
+                  </Card>
+                      
                   </Col>
                 </Row>
               </Col>
