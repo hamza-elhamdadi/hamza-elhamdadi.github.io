@@ -49,7 +49,7 @@ function App() {
                 </Card.Body>
               </Card>
               </Col>
-              <Col xs={12} lg={8} >
+              <Col xs={10} lg={8} >
                 <Row style={{marginTop: '10px', color: '#7050a0'}}>
                   <Col className='text-left'>
                   <h2>About Me</h2>
@@ -65,7 +65,7 @@ function App() {
                     Topological Data Analysis. My recent published work applies Topological Data Analysis to Emotion Detection in the field of Affective Computing.
                   </p>
                   </Col>
-                  <Col xs={12} lg={6}>
+                  <Col xs={10} lg={6}>
                   <Timeline
                       dataSource={{
                         sourceType: 'profile',
@@ -80,7 +80,7 @@ function App() {
                   </Col>
                 </Row>
                 <Row className='text-left' style={{color: '#7050a0'}}>
-                  <Col>
+                  <Col xs={10} lg = {12}>
                   <Card>
                     <Card.Body className='bckgrnd'>
                     <h4>Recent News</h4>
