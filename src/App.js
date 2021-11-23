@@ -51,7 +51,7 @@ function App() {
               </Col>
               <Col xs={10} lg={8} className='mx-auto' >
                 <Row style={{marginTop: '10px', color: '#7050a0'}}>
-                  <Col className='text-left mx-auto'>
+                  <Col lg={6} className='text-left mx-auto'>
                   <h2>About Me</h2>
                   <p>
                     I am a doctoral student in the <a style={{'margin': 0}} target='_' href='https://groups.cs.umass.edu/hci-vis/'> HCI-Vis Lab</a>&nbsp;
@@ -65,7 +65,7 @@ function App() {
                     Topological Data Analysis. My recent published work applies Topological Data Analysis to Emotion Detection in the field of Affective Computing.
                   </p>
                   </Col>
-                  <Col xs={10} lg={6} className='mx-auto'>
+                  <Col lg={6} className='mx-auto'>
                   <Timeline
                       dataSource={{
                         sourceType: 'profile',
@@ -80,29 +80,27 @@ function App() {
                   </Col>
                 </Row>
                 <Row className='text-left mx-auto' style={{color: '#7050a0'}}>
-                  <Col xs={12} lg = {12}>
                   <Card>
                     <Card.Body className='bckgrnd'>
                     <h4>Recent News</h4>
-                      <ul class='table-list'>
-                        <li class='table-element'>
+                      <ul className='table-list'>
+                        <li className='table-element'>
                           <p>Paper accepted to IEEE Vis 2021 and TVCG</p>
-                          <a href='https://www.youtube.com/watch?v=buqJx0w5PiQ' target='_'>Watch my IEEE Vis Presentation here!</a>
                         </li>
-                        <li class='table-element element-right'><b>Fall 2021</b></li>
+                        <li className='table-element element-right'><b>Fall 2021</b></li>
                       </ul>
-                      <ul class='table-list'>
-                        <li class='table-element'><p>Accepted to Ph.D. program at UMass Amherst</p></li>
-                        <li class='table-element element-right'><b>Fall 2021</b></li>
+                      <a href='https://www.youtube.com/watch?v=buqJx0w5PiQ' target='_' style={{textAlign: 'right'}}>Watch my IEEE Vis Presentation here!</a>
+                      <ul className='table-list'>
+                        <li className='table-element'><p>Accepted to Ph.D. program at UMass Amherst</p></li>
+                        <li className='table-element element-right'><b>Fall 2021</b></li>
                       </ul>
-                      <ul class='table-list'>
-                        <li class='table-element'><p>Master of Science Awarded at USF</p></li>
-                        <li class='table-element element-right'><b>Summer 2021</b></li>
+                      <ul className='table-list'>
+                        <li className='table-element'><p>Master of Science Awarded at USF</p></li>
+                        <li className='table-element element-right'><b>Summer 2021</b></li>
                       </ul> 
                     </Card.Body>
                   </Card>
                       
-                  </Col>
                 </Row>
               </Col>
             </Row>
