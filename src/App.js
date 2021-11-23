@@ -28,6 +28,7 @@ function App() {
           <NavLink className='nav-link page-logo active' to="/"></NavLink>
           <NavLink className='nav-link active' to="/" ><h5 style={{marginTop: 10}}>Home</h5></NavLink>
           <NavLink className='nav-link' to="/publications" ><h5 style={{marginTop: 10}}>Projects</h5></NavLink>
+          <NavLink className='nav-link' to='/cv'><h5 style={{marginTop: 10}}>CV</h5></NavLink>
         </Nav>
       </Navbar>
       <div className="App">

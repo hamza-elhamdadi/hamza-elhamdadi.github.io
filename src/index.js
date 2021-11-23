@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Publications from "./Publications.js";
+import CV from './CV.js';
 import Art from './Art.js';
 import reportWebVitals from './reportWebVitals';
 
@@ -15,6 +16,7 @@ ReactDOM.render(
     <Route exact path="/" component={App} />
     <Route path="/publications" component={Publications} />
     <Route path='/art' component={Art} />
+    <Route path='/cv' component={CV} />
   </Switch>
   </BrowserRouter>,
   rootElement

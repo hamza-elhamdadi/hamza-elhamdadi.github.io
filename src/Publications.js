@@ -21,17 +21,17 @@ function Publications(){
     return (
         <>
             <Navbar className='mx-auto' variant='dark' sticky='top' style={{"backgroundColor": '#c3aeff'}}>
-                <Navbar.Brand to='/'></Navbar.Brand>
                 <Nav >
                 <NavLink className='nav-link page-logo active' to="/"></NavLink>
                 <NavLink className='nav-link active' to="/" ><h5 style={{marginTop: 10}}>Home</h5></NavLink>
                 <NavLink className='nav-link' to="/publications" ><h5 style={{marginTop: 10}}>Projects</h5></NavLink>
+                <NavLink className='nav-link' to='/cv'><h5 style={{marginTop: 10}}>CV</h5></NavLink>
                 </Nav>
             </Navbar>
             <div className="App">
                 <Container className='mx-auto' style={{color: '#7050a0'}}>
                     <Row>
-                    <Col xs={12} lg={8} >
+                    <Col xs={12} lg={8} className='mx-auto'>
                         <Card className='project mx-auto'>
                             <Card.Header className='bckgrnd cardbodytext'>AffectiveTDA: Using Topological Data Analysis to Improve Analysis and Explainability in Affective Computing</Card.Header>
                             <Card.Img src={'/affectiveTDA_teaser.png'} className='teaser' alt='Teaser for AffectiveTDA project'/>
