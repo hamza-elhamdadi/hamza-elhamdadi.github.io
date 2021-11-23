@@ -65,7 +65,7 @@ function App() {
                     Topological Data Analysis. My recent published work applies Topological Data Analysis to Emotion Detection in the field of Affective Computing.
                   </p>
                   </Col>
-                  <Col xs={6} lg={6}>
+                  <Col xs={12} lg={6}>
                   <Timeline
                       dataSource={{
                         sourceType: 'profile',
@@ -76,7 +76,7 @@ function App() {
                         chrome: "noheader, nofooter"
                       }}
                     />
-                    <Follow username="ElhamdadiHamza" options={{ size: "medium" }} />
+                  <Follow username="ElhamdadiHamza" options={{ size: "small" }} />
                   </Col>
                 </Row>
                 <Row className='text-left' style={{color: '#7050a0'}}>
@@ -85,15 +85,18 @@ function App() {
                     <Card.Body className='bckgrnd'>
                     <h4>Recent News</h4>
                       <ul class='table-list'>
-                        <li class='table-element'>Paper accepted to IEEE Vis 2021 and TVCG</li>
+                        <li class='table-element'>
+                          <p>Paper accepted to IEEE Vis 2021 and TVCG</p>
+                          <a href='https://www.youtube.com/watch?v=buqJx0w5PiQ' target='_'>Watch my IEEE Vis Presentation here!</a>
+                        </li>
                         <li class='table-element element-right'><b>Fall 2021</b></li>
                       </ul>
                       <ul class='table-list'>
-                        <li class='table-element'>Accepted to Ph.D. program at UMass Amherst</li>
+                        <li class='table-element'><p>Accepted to Ph.D. program at UMass Amherst</p></li>
                         <li class='table-element element-right'><b>Fall 2021</b></li>
                       </ul>
                       <ul class='table-list'>
-                        <li class='table-element'>Master of Science Awarded at USF</li>
+                        <li class='table-element'><p>Master of Science Awarded at USF</p></li>
                         <li class='table-element element-right'><b>Summer 2021</b></li>
                       </ul> 
                     </Card.Body>
