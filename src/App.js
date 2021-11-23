@@ -51,7 +51,7 @@ function App() {
               </Col>
               <Col xs={10} lg={8} >
                 <Row style={{marginTop: '10px', color: '#7050a0'}}>
-                  <Col className='text-left'>
+                  <Col className='text-left mx-auto'>
                   <h2>About Me</h2>
                   <p>
                     I am a doctoral student in the <a style={{'margin': 0}} target='_' href='https://groups.cs.umass.edu/hci-vis/'> HCI-Vis Lab</a>&nbsp;
@@ -65,7 +65,7 @@ function App() {
                     Topological Data Analysis. My recent published work applies Topological Data Analysis to Emotion Detection in the field of Affective Computing.
                   </p>
                   </Col>
-                  <Col xs={10} lg={6}>
+                  <Col xs={10} lg={6} className='mx-auto'>
                   <Timeline
                       dataSource={{
                         sourceType: 'profile',
@@ -79,7 +79,7 @@ function App() {
                   <Follow username="ElhamdadiHamza" options={{ size: "small" }} />
                   </Col>
                 </Row>
-                <Row className='text-left' style={{color: '#7050a0'}}>
+                <Row className='text-left mx-auto' style={{color: '#7050a0'}}>
                   <Col xs={10} lg = {12}>
                   <Card>
                     <Card.Body className='bckgrnd'>
