@@ -6,8 +6,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Card from 'react-bootstrap/Card'
-
 //Navbar imports
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -86,7 +84,7 @@ function App() {
                               screenName: 'ElhamdadiHamza'
                             }}
                             options={{
-                              height: '80vh',
+                              height: '600vh',
                               chrome: "noheader, nofooter"
                             }}
                           />

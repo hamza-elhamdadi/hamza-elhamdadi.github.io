@@ -7,18 +7,18 @@ import CV from './CV.js';
 import Art from './Art.js';
 import reportWebVitals from './reportWebVitals';
 
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
     <Route exact path="/" component={App} />
     <Route path="/publications" component={Publications} />
     <Route path='/art' component={Art} />
     <Route path='/cv' component={CV} />
   </Switch>
-  </BrowserRouter>,
+  </HashRouter>,
   rootElement
 );
 

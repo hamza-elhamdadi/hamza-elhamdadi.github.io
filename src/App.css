@@ -48,8 +48,43 @@ body{
    font-style: normal;
 }
 
+.tags {
+  float: left;
+  border-radius: 5px;
+  color: white;
+  padding: 0 4px 0 4px;
+}
+
+.poster-tag {
+  background-color: hotpink;
+}
+
+.poster-tag:after {
+  content: 'poster';
+}
+
+.conference-tag {
+  background-color:darkslategrey;
+}
+
+.conference-tag:after {
+  content: 'conference paper';
+}
+
+.workshop-tag {
+  background-color:darksalmon;
+}
+
+.workshop-tag:after {
+  content: 'workshop paper';
+}
+
+.hdr{
+  font-size: 17pt;
+}
+
 .bckgrnd {
-  background-color: #dcd0ff!important
+  background-color: #dcd0ff!important;
 }
 
 .cardbodytext {

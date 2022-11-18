@@ -32,7 +32,7 @@ function CV(){
                 <Container className='mx-auto'>
                     <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js"></Worker>
                     <Col xs={12} lg={8} className='mx-auto'>
-                    <Viewer fileUrl="/resume.pdf" defaultScale={SpecialZoomLevel.PageWidth} />    
+                    <Viewer fileUrl="/CV-Elhamdadi-2022-Sep-17.pdf" defaultScale={SpecialZoomLevel.PageWidth} />    
                     </Col>
                     
                 </Container>
